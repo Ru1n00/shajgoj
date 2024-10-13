@@ -10,7 +10,7 @@
 /* font utilites */
 
 .font-xs {
-    font-size: .75rem;
+    font-size: .75rem; 
 }
 
 .font-sm {
@@ -67,6 +67,7 @@ nav {
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -92,7 +93,7 @@ nav {
 
 .brands {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .brands-link {
