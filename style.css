@@ -11,6 +11,12 @@
     --color-accent: #ff3d71;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 
 /* font utilites */
 
@@ -70,7 +76,7 @@ header {
     
 }
 
-nav {
+.container {
     /* position: fixed; */
     max-width: 1200px;
     margin: 0 auto;
@@ -148,4 +154,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* section banner */
+.banner {
+    margin-block: 2rem;
 }
