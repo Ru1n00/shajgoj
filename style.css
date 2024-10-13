@@ -30,6 +30,10 @@
     font-size: 1.125rem;
 }
 
+.font-normal {
+    font-weight: 500;
+}
+
 .font-semibold {
     font-weight: 600;
 }
@@ -54,8 +58,6 @@
     color: #fff;
 }
 
-
-
 .btn-pink {
     background-color: var(--color-accent);
     color: #fff;
@@ -63,16 +65,23 @@
 
 
 /* navbar */
+
+header {
+    
+}
+
 nav {
+    /* position: fixed; */
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .nav-header {
-    padding: 15px 0;
+    padding: 15px 0 6px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 
@@ -117,4 +126,26 @@ nav {
 
 .nav-links a:last-child {
     margin-right: 0;
+}
+
+.nav-categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+}
+
+
+/* section shop by concern */
+.shop-by-concern {
+    width: 100%;
+    height: 120px;
+    font-size: 1.5rem;
+    background: #7f7f7f;
+    color: #fff;
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
